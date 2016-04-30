@@ -1,6 +1,13 @@
 # Get-CommandVariable
 Gives you a command decorated with $Parameters that it expects. 
 
+###How to get it
+Download the [GetCommandVariable](https://raw.githubusercontent.com/mitulsuthar/Get-CommandVariable/master/GetCommandVariable.psm1) file into your powershell modules folder.  
+ 
+```powershell
+Import-Module .\GetCommandVariable.psm1
+
+```
 ###EXAMPLE
 ```powershell
 PS C:\> Get-CommandVariable -CommandName New-AzureRMWebApp
@@ -48,6 +55,6 @@ $VMName = ""
 
 Get-AzureRMVMSize  -ResourceGroupName $ResourceGroupName -VMName $VMName
 ```
-###NOTES
-Author: Mitul Suthar 
-Twitter: @mitulsuthar
+###NOTES  
+Author: Mitul Suthar  
+Twitter: @mitulsuthar  
